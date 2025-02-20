@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV\\C#\\HotelManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\Service.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\Service.cs",
+              "RelativeToolTip": "Models\\Service.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:00:51.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
+              "RelativeDocumentMoniker": "Models\\BookingService.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
+              "RelativeToolTip": "Models\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:43:22.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelManagementDbContext.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HotelManagementDbContext.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
+              "RelativeToolTip": "Data\\HotelManagementDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:38:00.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

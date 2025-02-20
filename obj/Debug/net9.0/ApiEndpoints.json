@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "HotelManagement.Controllers.HomeController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Home/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "HotelManagement.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagement.Controllers.HomeController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Home/GetProduct/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "test",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagement.Controllers.HomeController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Home/GetProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagement.Controllers.TypeRoomController",
+    "Method": "GetTypeRoom",
+    "RelativePath": "api/TypeRoom/GetTypeRooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

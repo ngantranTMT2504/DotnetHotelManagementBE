@@ -1,10 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace HotelManagement.Models
 {
     public class TypeRoom
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
         [StringLength(50)]
@@ -16,6 +19,8 @@ namespace HotelManagement.Models
         public int Capacity { get; set; }
         [Required]
         public int Price { get; set; }
+        [JsonIgnore]
+        public List<Room> Room { get; set; }
 
     }
 }

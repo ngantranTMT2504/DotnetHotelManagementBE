@@ -16,8 +16,6 @@ namespace HotelManagement.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public int BookingId { get; set; }
-        [Required]
         public int Amount { get; set; }
         [Required]
         public DateOnly PaymentDate { get; set; } = DateOnly.FromDateTime(DateTime.UtcNow);
@@ -26,5 +24,13 @@ namespace HotelManagement.Models
         [Required]
         [Range(0, 100)]
         public decimal UpFrontPayment { get; set; } 
+
+        public int BookingId { get; set; }
+        public Booking Booking { get; set; }
+       
+       
+        
+
+
     }
 }

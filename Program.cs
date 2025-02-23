@@ -1,4 +1,7 @@
 using HotelManagement.Data;
+using HotelManagement.Interfaces;
+using HotelManagement.Models;
+using HotelManagement.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
-//Đăng ký DbContext
+builder.Services.AddScoped<ITypeRoomService, TypeRoomService>();
+builder.Services.AddScoped<IRoomService, RoomService>();
+builder.Services.AddScoped<IBookingService, HotelManagement.Services.BookingService>();
+builder.Services.AddScoped<IBookingServicesService, BookingServicesService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IRoomBookedService, RoomBookedService>();
+builder.Services.AddScoped<IServicesManagementService, ServiceManagementService>();
+
+//Register DbContext
 builder.Services.AddDbContext<HotelManagementDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -19,6 +30,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseHttpsRedirection();
 app.UseRouting();

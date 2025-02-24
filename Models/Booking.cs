@@ -6,6 +6,7 @@ namespace HotelManagement.Models
     public enum StatusBooking
     {
         Pending,
+        Paid,
         Confirmed,
         Cancelled
     }

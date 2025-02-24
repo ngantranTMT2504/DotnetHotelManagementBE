@@ -78,7 +78,6 @@ namespace HotelManagement.Services
                 var room = _dbContext.Rooms.FirstOrDefault(x => x.Id == _room.Id);
                 room.Id = _room.Id;
                 room.NumberRoom = _room.NumberRoom;
-                room.ImageRoom = _room.ImageRoom;
                 room.Status = _room.Status;
                 room.TypeRoomId = _room.TypeRoomId;
                 _dbContext.Rooms.Update(room);

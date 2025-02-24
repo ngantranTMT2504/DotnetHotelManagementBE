@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace HotelManagement.Models
 {
@@ -19,7 +20,6 @@ namespace HotelManagement.Models
         [Required]
         public string NumberRoom { get; set; }
         
-        public string ImageRoom { get; set; }
         [Required]
         public StatusRoom Status {  get; set; } = StatusRoom.Available;
 

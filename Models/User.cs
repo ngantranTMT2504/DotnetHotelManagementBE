@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace HotelManagement.Models
 {
@@ -7,29 +8,15 @@ namespace HotelManagement.Models
         Admin,
         User
     }
-    public class User
+    public class User: IdentityUser
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
-        public string PasswordHash { get; set; } =  string.Empty;
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; } = string.Empty;
-        [Required]
-        [StringLength(100)]
-        public string FullName { get; set; }
-        [Phone]
-        public string PhoneNumber { get; set; }
+        
         public DateOnly? DateOfBirth { get; set; }
 
-        public bool Gender { get; set; } // true = Male, false = Female
+        public bool Gender { get; set; }
         public string? Address { get; set; }
         public DateOnly DateCreated { get; set; } = DateOnly.FromDateTime(DateTime.UtcNow);  
         [Required]
         public UserRole Role { get; set; } = UserRole.User;
-        public bool Status { get; set; } = true; // true = Active, false = Inactive
-
-
     }
 }

@@ -19,8 +19,9 @@ namespace HotelManagement.Models
         public int Capacity { get; set; }
         [Required]
         public int Price { get; set; }
+        public string ImageRoom { get; set; }
         [JsonIgnore]
-        public List<Room> Room { get; set; }
+        public List<Room>? Room { get; set; }
 
     }
 }

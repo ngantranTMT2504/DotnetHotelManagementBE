@@ -76,14 +76,15 @@ namespace HotelManagement.Services
         {
             try
             {
-                var typeRoom = _dbContext.TypeRooms.FirstOrDefault(r => r.Id == _typeRoom.Id);
-                typeRoom.Name = _typeRoom.Name;
-                typeRoom.Price = _typeRoom.Price;
-                typeRoom.Capacity= _typeRoom.Capacity;
-                typeRoom.Description = _typeRoom.Description;
-                _dbContext.TypeRooms.Update(typeRoom);
+                var typeRoomFromDb = _dbContext.TypeRooms.FirstOrDefault(r => r.Id == _typeRoom.Id);
+                typeRoomFromDb.Name = _typeRoom.Name;
+                typeRoomFromDb.Price = _typeRoom.Price;
+                typeRoomFromDb.Capacity= _typeRoom.Capacity;
+                typeRoomFromDb.Description = _typeRoom.Description;
+                typeRoomFromDb.ImageRoom = _typeRoom.ImageRoom;
+                _dbContext.TypeRooms.Update(typeRoomFromDb);
                 _dbContext.SaveChanges();
-                return typeRoom;
+                return typeRoomFromDb;
             } catch
             {
                 return null;

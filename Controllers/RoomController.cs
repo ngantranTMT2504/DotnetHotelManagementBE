@@ -65,7 +65,7 @@ namespace HotelManagement.Controllers
             return Ok(room);
         }
 
-        [Route("UpdateRoom/{id}")]
+        [Route("UpdateRoom")]
         [HttpPut]
         public IActionResult Update(Room _room)
         {

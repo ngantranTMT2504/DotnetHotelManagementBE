@@ -19,6 +19,7 @@ namespace HotelManagement.Models
         public Payment Payment { get; set; }
         [Required]
         public int UserID { get; set; }
+      
         [Required]
         public DateOnly DateCheckin { get; set; }
         [Required]

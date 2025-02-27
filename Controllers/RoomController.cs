@@ -1,5 +1,6 @@
 ﻿using HotelManagement.Interfaces;
 using HotelManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelManagement.Controllers

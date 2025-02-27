@@ -1,12 +1,20 @@
 ﻿using System.Data;
 using HotelManagement.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace HotelManagement.Data
 {
-    public class HotelManagementDbContext(DbContextOptions<HotelManagementDbContext> options) : DbContext(options) 
+    public class HotelManagementDbContext: IdentityDbContext<ApplicationUser>
     {
+
+        public HotelManagementDbContext(DbContextOptions<HotelManagementDbContext> options): base(options)
+        { 
+        }
+      
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TypeRoom>()
@@ -41,7 +49,8 @@ namespace HotelManagement.Data
                 .HasOne(x => x.Payment)
                 .WithOne(x => x.Booking)
                 .HasForeignKey<Payment>(x => x.BookingId);
-
+            
+                
 
             modelBuilder.Entity<BookingService>()
                 .ToTable(nameof(BookingService), t => t.IsTemporal(false));
@@ -52,7 +61,15 @@ namespace HotelManagement.Data
                 .HasMany(x => x.BookingServices)
                 .WithOne(x => x.Service)
                 .HasForeignKey(x => x.ServiceId);
-                
+
+            modelBuilder.Entity<IdentityRole<string>>().ToTable("Role").HasNoKey();
+            modelBuilder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaim").HasNoKey();
+            modelBuilder.Entity<IdentityUser<string>>().ToTable("User").HasKey(b => b.Id);
+            modelBuilder.Entity<IdentityUserClaim<string>>().ToTable("UserClaim").HasNoKey();
+            modelBuilder.Entity<IdentityUserToken<string>>().ToTable("UserToken").HasNoKey();
+            modelBuilder.Entity<IdentityUserLogin<string>>().ToTable("UserLogin").HasNoKey();
+            modelBuilder.Entity<IdentityUserRole<string>>().ToTable("UserRole").HasNoKey();
+
         }
 
 
@@ -63,6 +80,7 @@ namespace HotelManagement.Data
         public DbSet<Room> Rooms { get; set; }
         public DbSet<RoomBooked> RoomsBookeds { get; set; }
         public DbSet<TypeRoom> TypeRooms { get; set; }
+        
 
 
     }

@@ -3,12 +3,8 @@ using Microsoft.AspNetCore.Identity;
 
 namespace HotelManagement.Models
 {
-    public enum UserRole
-    {
-        Admin,
-        User
-    }
-    public class User: IdentityUser
+ 
+    public class ApplicationUser: IdentityUser
     {
         
         public DateOnly? DateOfBirth { get; set; }
@@ -17,6 +13,6 @@ namespace HotelManagement.Models
         public string? Address { get; set; }
         public DateOnly DateCreated { get; set; } = DateOnly.FromDateTime(DateTime.UtcNow);  
         [Required]
-        public UserRole Role { get; set; } = UserRole.User;
+        public string Role { get; set; } = UserRoles.User;
     }
 }

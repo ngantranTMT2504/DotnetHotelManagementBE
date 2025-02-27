@@ -2,6 +2,7 @@
 using HotelManagement.Interfaces;
 using HotelManagement.Models;
 using HotelManagement.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,7 @@ namespace HotelManagement.Controllers
 {
     [Route("/api/[controller]")]
     [ApiController]
+    
     public class TypeRoomController : Controller
     {
         private readonly ITypeRoomService _typeRoomService;

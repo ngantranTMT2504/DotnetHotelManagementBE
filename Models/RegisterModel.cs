@@ -22,7 +22,5 @@ namespace HotelManagement.Models
 
         [Required(ErrorMessage = "Date Of Birth is required")]
         public DateOnly? DateOfBirth { get; set; }
-
-
     }
 }

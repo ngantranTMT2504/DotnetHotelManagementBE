@@ -70,14 +70,19 @@ namespace HotelManagement.Controllers
         [Route("register")]
         public async Task<IActionResult> Register(RegisterModel model)
         {
-            var userExists = await _userManager.FindByNameAsync(model.EmailAddress);
+            var userExists = await _userManager.FindByNameAsync(model.Email);
             if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" });
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new Response { Status = "Error", Message = "User already exists!" });
             ApplicationUser user = new()
             {
-                Email = model.EmailAddress,
+                Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.EmailAddress
+                UserName = model.Email,
+                FullName = model.Name,
+                PhoneNumber = model.PhoneNumber,
+                Gender = model.Gender,
+                DateOfBirth = (DateOnly)model.DateOfBirth
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)

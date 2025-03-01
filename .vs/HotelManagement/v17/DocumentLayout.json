@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\DEV\\C#\\HotelManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\controllers\\bookingservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:controllers\\bookingservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\migrations\\20250301143144_hotelmanagement_1.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:migrations\\20250301143144_hotelmanagement_1.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\migrations\\20250227155200_hotelmanagement-1.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:migrations\\20250227155200_hotelmanagement-1.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,14 +63,6 @@
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:data\\hotelmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\migrations\\20250227152806_hotelmanagement-1.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:migrations\\20250227152806_hotelmanagement-1.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|solutionrelative:models\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D6B5FE-E391-4305-BA93-B00D8582894A}|HotelManagement.csproj|d:\\dev\\c#\\hotelmanagement\\services\\typeroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,19 +98,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HotelManagementDbContext.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HotelManagementDbContext.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
+              "RelativeToolTip": "Data\\HotelManagementDbContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:49:52.375Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticateController.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:40:10.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:23:46.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\RegisterModel.cs",
               "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
               "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\RegisterModel.cs",
               "RelativeToolTip": "Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T14:21:38.735Z",
+              "WhenOpened": "2025-03-01T13:43:37.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Models\\Response.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\Response.cs",
+              "RelativeToolTip": "Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:37:14.295Z",
               "EditorCaption": ""
             },
             {
@@ -113,89 +174,79 @@
               "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
               "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Controllers\\BookingController.cs",
               "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T16:05:45.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthenticateController.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAsAAAATAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BookingServiceController.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Controllers\\BookingServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingServiceController.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Controllers\\BookingServiceController.cs",
+              "RelativeToolTip": "Controllers\\BookingServiceController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:12:58.08Z",
+              "WhenOpened": "2025-03-01T07:13:24.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "20250301143144_hotelmanagement_1.4.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250301143144_hotelmanagement_1.4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250301143144_hotelmanagement_1.4.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250301143144_hotelmanagement_1.4.cs",
+              "RelativeToolTip": "Migrations\\20250301143144_hotelmanagement_1.4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:18:13.968Z",
+              "WhenOpened": "2025-03-01T14:33:50.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:04:12.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HotelManagementDbContext.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\HotelManagementDbContext.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Data\\HotelManagementDbContext.cs",
-              "RelativeToolTip": "Data\\HotelManagementDbContext.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
+              "RelativeDocumentMoniker": "Models\\BookingService.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
+              "RelativeToolTip": "Models\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:49:52.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TypeRoom.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\TypeRoom.cs",
-              "RelativeDocumentMoniker": "Models\\TypeRoom.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\TypeRoom.cs",
-              "RelativeToolTip": "Models\\TypeRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T09:14:18.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:23:46.511Z",
+              "WhenOpened": "2025-02-24T14:03:38.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEgAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "20250227155200_hotelmanagement-1.2.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250227155200_hotelmanagement-1.2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250227155200_hotelmanagement-1.2.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250227155200_hotelmanagement-1.2.cs",
+              "RelativeToolTip": "Migrations\\20250227155200_hotelmanagement-1.2.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T07:19:37.081Z"
+              "WhenOpened": "2025-03-01T13:51:06.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Service.cs",
               "RelativeDocumentMoniker": "Models\\Service.cs",
@@ -207,7 +258,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "TypeRoom.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\TypeRoom.cs",
+              "RelativeDocumentMoniker": "Models\\TypeRoom.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\TypeRoom.cs",
+              "RelativeToolTip": "Models\\TypeRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T09:14:18.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:18:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -219,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "20250227152806_hotelmanagement-1.1.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250227152806_hotelmanagement-1.1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250227152806_hotelmanagement-1.1.cs",
@@ -231,19 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Response.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "Models\\Response.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\Response.cs",
-              "RelativeToolTip": "Models\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:37:14.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\UserRoles.cs",
               "RelativeDocumentMoniker": "Models\\UserRoles.cs",
@@ -255,31 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Models\\Booking.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\Booking.cs",
-              "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:04:12.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
-              "RelativeDocumentMoniker": "Models\\BookingService.cs",
-              "ToolTip": "D:\\DEV\\C#\\HotelManagement\\Models\\BookingService.cs",
-              "RelativeToolTip": "Models\\BookingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:03:38.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "RoomService.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "Services\\RoomService.cs",
@@ -291,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "TypeRoomService.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Services\\TypeRoomService.cs",
               "RelativeDocumentMoniker": "Services\\TypeRoomService.cs",
@@ -303,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Models\\Payment.cs",
@@ -315,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Room.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Models\\Room.cs",
@@ -327,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20250224085038_addImage1.cs",
               "DocumentMoniker": "D:\\DEV\\C#\\HotelManagement\\Migrations\\20250224085038_addImage1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250224085038_addImage1.cs",

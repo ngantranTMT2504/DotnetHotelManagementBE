@@ -34,10 +34,13 @@ namespace HotelManagement.Data
 
             modelBuilder.Entity<Payment>()
                 .ToTable(nameof(Payment), t => t.IsTemporal(false));
-                
+
 
             modelBuilder.Entity<Booking>()
                 .ToTable(nameof(Booking), t => t.IsTemporal(false))
+                .HasOne(x => x.ApplicationUser)
+                .WithMany(x => x.Booking);
+             modelBuilder.Entity<Booking>()
                 .HasMany(x => x.BookingServices)
                 .WithOne(x => x.Booking)
                 .HasForeignKey(x => x.BookingId);

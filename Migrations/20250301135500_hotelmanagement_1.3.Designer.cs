@@ -4,6 +4,7 @@ using HotelManagement.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HotelManagement.Migrations
 {
     [DbContext(typeof(HotelManagementDbContext))]
-    partial class HotelManagementDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250301135500_hotelmanagement_1.3")]
+    partial class hotelmanagement_13
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,9 +32,6 @@ namespace HotelManagement.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ApplicationUserId")
-                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("DateCheckin")
                         .HasColumnType("datetime2");
@@ -52,8 +52,6 @@ namespace HotelManagement.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ApplicationUserId");
 
                     b.ToTable("Booking", (string)null);
 
@@ -446,11 +444,11 @@ namespace HotelManagement.Migrations
                     b.Property<DateOnly>("DateCreated")
                         .HasColumnType("date");
 
-                    b.Property<string>("FullName")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("Gender")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -460,15 +458,6 @@ namespace HotelManagement.Migrations
                         .HasColumnType("date");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
-                });
-
-            modelBuilder.Entity("HotelManagement.Models.Booking", b =>
-                {
-                    b.HasOne("HotelManagement.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany("Booking")
-                        .HasForeignKey("ApplicationUserId");
-
-                    b.Navigation("ApplicationUser");
                 });
 
             modelBuilder.Entity("HotelManagement.Models.BookingService", b =>
@@ -553,11 +542,6 @@ namespace HotelManagement.Migrations
             modelBuilder.Entity("HotelManagement.Models.TypeRoom", b =>
                 {
                     b.Navigation("Room");
-                });
-
-            modelBuilder.Entity("HotelManagement.Models.ApplicationUser", b =>
-                {
-                    b.Navigation("Booking");
                 });
 #pragma warning restore 612, 618
         }

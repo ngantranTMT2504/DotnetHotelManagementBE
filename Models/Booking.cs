@@ -19,11 +19,12 @@ namespace HotelManagement.Models
         public Payment Payment { get; set; }
         [Required]
         public int UserID { get; set; }
+        public ApplicationUser ApplicationUser { get; set; }
       
         [Required]
-        public DateOnly DateCheckin { get; set; }
+        public DateTime DateCheckin { get; set; }
         [Required]
-        public DateOnly DateCheckout { get; set; }
+        public DateTime DateCheckout { get; set; }
         [Required]
         public int TotalPrice { get; set; }
         [Required]
@@ -32,9 +33,6 @@ namespace HotelManagement.Models
         public StatusBooking Status {  get; set; } = StatusBooking.Pending;
 
         public List<BookingService> BookingServices { get; set; }
-
-     
-       
 
         public List<RoomBooked> RoomBookeds { get; set; }
 
